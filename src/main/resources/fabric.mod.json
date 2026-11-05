@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "tracers",
+  "version": "${version}",
+  "name": "Tracers",
+  "description": "Rysuje linie od celownika do graczy i zwierząt. Klawisz G włącza i wyłącza.",
+  "authors": ["Ty"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.example.tracers.TracersClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
